@@ -1,53 +1,27 @@
-# Android-разработчик · Kotlin & Jetpack Compose
+<h1 align="center">Android Developer</h1>
+<p align="center">Разрабатываю Android-приложения на Kotlin и Jetpack Compose.</p>
 
-Разрабатываю Android-приложения, работаю с интерфейсами, локальным хранением данных и тестированием. В команде **MiraTrack** участвовал в развитии приложения, опубликованного в Google Play.
+## 🛠 Стек
 
-Рассматриваю **стажировки и Junior-позиции в Android-разработке**.
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## Технологии
+**Архитектура:** MVVM · ViewModel · Hilt  
+**Асинхронность:** Coroutines · Flow · StateFlow  
+**Данные:** Retrofit · OkHttp · kotlinx.serialization · Room · DataStore  
+**Тесты:** JUnit · MockK · Turbine · Compose UI Test
 
-| Направление | Стек |
-| --- | --- |
-| Android и UI | Kotlin, Jetpack Compose, Material 3, Navigation Compose |
-| Архитектура и состояние | MVVM, ViewModel, Coroutines, Flow, StateFlow, Hilt |
-| Сеть и данные | Retrofit, OkHttp, kotlinx.serialization, Room, SQLite, DataStore |
-| Тестирование | JUnit, MockK, Robolectric, Turbine, Compose UI Test |
+## 📱 Проекты
 
-## Проекты
+### [RecipeComposeApp ↗](https://github.com/camry90/RecipeComposeApp)
+Приложение с рецептами: категории, избранное, пересчёт порций и доступ к ранее загруженным данным без интернета.
 
-### [RecipeComposeApp](https://github.com/camry90/RecipeComposeApp)
+`Kotlin` `Compose` `Retrofit` `Room` `DataStore` `Hilt`
 
-Учебное Android-приложение для просмотра рецептов на Jetpack Compose.
+### [KotlinTelegramBot ↗](https://github.com/camry90/KotlinTelegramBot)
+Telegram-бот для изучения английских слов: варианты перевода, статистика и персональный прогресс.
 
-- Категории, карточки рецептов, избранное и пересчёт ингредиентов по числу порций.
-- Кэширование в Room: ранее загруженные рецепты доступны без интернета.
-- Избранное в DataStore, навигация и обработка ссылок на рецепты.
-- Unit-тесты и Compose UI-тесты.
-
-**Kotlin · Compose · Retrofit · Room · DataStore · Hilt**
-
-### [KotlinTelegramBot](https://github.com/camry90/KotlinTelegramBot)
-
-Учебный Telegram-бот для изучения английских слов.
-
-- Выбор перевода через кнопки, проверка ответов и статистика обучения.
-- Персональный прогресс в SQLite, работа с SQL через JDBC.
-- Telegram Bot API, сериализация JSON и тесты JUnit 5.
-
-**Kotlin/JVM · Java HttpClient · kotlinx.serialization · SQLite · JDBC**
-
-## Опыт разработки
-
-**MiraTrack · Android-разработчик · август — ноябрь 2026**
-
-Участвовал в разработке [приложения для отслеживания менструального цикла](https://play.google.com/store/apps/details?id=com.woman.calendars).
-
-- 9 merge requests приняты после code review руководителя.
-- Переработал состояние экрана заметок и интерфейс аккаунтов.
-- Выделил логику уведомлений в отдельные компоненты и покрыл сценарии unit-тестами.
-
-## Образование
-
-**РТУ МИРЭА · Программная инженерия** — 4-й курс, ожидаемый выпуск в 2027 году.
-
-Продолжаю обучение Android-разработке. Английский — **B2**, могу читать Java-код.
+`Kotlin/JVM` `Telegram Bot API` `SQLite` `JDBC` `JUnit 5`
